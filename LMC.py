@@ -1,4 +1,4 @@
-instructions = ["INP", "STA", "ADD", "SUB", "LDA", "OUT"]
+instructions = ["INP", "STA", "ADD", "SUB", "LDA", "OUT", "BRP", "BRZ", "BRA"]
 
 def parse(code):
     RAM = [0 for i in range(100)]
